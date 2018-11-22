@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator K.39
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o D:\xilinx\Projects\Xeltek\//sded5.bin -u 0 D:/xilinx/Projects/Xeltek/xeltek.bit 
+
+PROM D:\xilinx\Projects\Xeltek\//sded5.prm map: Tue Sep 25 18:18:05 2018
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          128K
+PROM start    0000:0000
+PROM end      0001:ffff
+PROM checksum 012bcf51
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0001:110b     Sep 25 18:18:03 2018 D:/xilinx/Projects/Xeltek/xeltek.bit
